@@ -1,4 +1,6 @@
 {
   "item.nachocraftmod.taco": "Taco",
-  "item.nachocraftmod.burrito": "Burrito"
+  "item.nachocraftmod.burrito": "Burrito",
+
+  "creativetab.nachocraftmod.taco_items": "Taco Items"
 }
