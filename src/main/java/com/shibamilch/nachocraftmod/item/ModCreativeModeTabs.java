@@ -20,7 +20,16 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.TACO);
                         output.accept(ModItems.BURRITO);
+                        output.accept(ModItems.TORTILLA);
+                        output.accept(ModItems.CHEESE);
+                        output.accept(ModItems.TACO_SHELL);
+                        output.accept(ModItems.CORN);
+                        output.accept(ModItems.BEANS);
+                        output.accept(ModItems.CORN_SEEDS);
+                        output.accept(ModItems.BEAN_SEEDS);
+                        output.accept(ModItems.CORN_FLOUR);
                     }).build());
+
 
 
 

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "T": {
+      "item": "nachocraftmod:tortilla"
+    },
+    "B": {
+      "item": "minecraft:cooked_beef"
+    },
+    "C": {
+      "item": "nachocraftmod:cheese"
+    }
+  },
+  "pattern": [
+    "TTT",
+    "BCB",
+    "TTT"
+  ],
+  "result": {
+    "count": 1,
+    "id": "nachocraftmod:burrito"
+  }
+
+}
