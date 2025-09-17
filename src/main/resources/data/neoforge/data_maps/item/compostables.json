@@ -1,0 +1,16 @@
+{
+  "values": {
+    "nachocraftmod:corn": {
+      "chance": 0.45
+    },
+    "nachocraftmod:beans": {
+      "chance": 0.45
+    },
+    "nachocraftmod:corn_seeds": {
+      "chance": 0.25
+    },
+    "nachocraftmod:bean_seeds": {
+      "chance": 0.25
+    }
+  }
+}

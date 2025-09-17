@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smoking",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "group": "tortilla",
+  "ingredient": {
+    "item": "nachocraftmod:tortilla"
+  },
+  "result": {
+    "id": "nachocraftmod:taco_shell"
+  }
+}

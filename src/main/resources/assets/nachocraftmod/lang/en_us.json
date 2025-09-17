@@ -1,6 +1,14 @@
 {
   "item.nachocraftmod.taco": "Taco",
   "item.nachocraftmod.burrito": "Burrito",
+  "item.nachocraftmod.tortilla": "Tortilla",
+  "item.nachocraftmod.cheese": "Cheese",
+  "item.nachocraftmod.corn_seeds": "Corn Seeds",
+  "item.nachocraftmod.corn": "Corn",
+  "item.nachocraftmod.bean_seeds": "Bean Seeds",
+  "item.nachocraftmod.beans": "Beans",
+  "item.nachocraftmod.taco_shell": "Taco Shell",
+  "item.nachocraftmod.corn_flour": "Corn Flour",
 
   "creativetab.nachocraftmod.taco_items": "Taco Items"
 }

@@ -1,5 +1,6 @@
 package com.shibamilch.nachocraftmod;
 
+import com.shibamilch.nachocraftmod.block.ModBlocks;
 import com.shibamilch.nachocraftmod.item.ModCreativeModeTabs;
 import com.shibamilch.nachocraftmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -41,6 +42,7 @@ public class NachoCraftMod {
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
@@ -57,6 +59,12 @@ public class NachoCraftMod {
         if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
             event.accept(ModItems.TACO);
             event.accept(ModItems.BURRITO);
+            event.accept(ModItems.TORTILLA);
+            event.accept(ModItems.CORN);
+            event.accept(ModItems.CORN_FLOUR);
+        }
+        if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(ModItems.CORN_SEEDS);
         }
     }
 
